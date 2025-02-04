@@ -54,11 +54,11 @@ index.php           # File principale per l’interfaccia e la logica del proget
 
 
 ### Scelta del file m3u8
-![Interfaccia principale](Screenshot 2025-02-04 at 12.48.53.png)
+![Interfaccia principale](https://github.com/gdessi1965/djtools/blob/main/rekordbox-export-master/public/images/image1.png)
 ### Scelta del pattern per la regex del percorso del file
-![Scelta percorso](Screenshot 2025-02-04 at 12.49.04.png)
+![Scelta percorso](https://github.com/gdessi1965/djtools/blob/main/rekordbox-export-master/public/images/image2.png)
 ### Schermata finale con i file e la cartella di destinazione
-![Schermata finale](Screenshot 2025-02-04 at 12.49.12.png)
+![Schermata finale](https://github.com/gdessi1965/djtools/blob/main/rekordbox-export-master/public/images/image3.png)
 
 
 ## Contribuire
