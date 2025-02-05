@@ -43,7 +43,42 @@ In questo caso il pattern per la regex è proprio Volumes
 Verrà quindi fatto il parsing di tutti i percorsi all'interno del file m3u8 e di conseguenza il download dei file
 della playlist. Il nome della cartella di destinazione all'interno della cartella /music del progetto sarà lo stesso del nome del file.
 
-## Struttura del Progetto
+******** ENGLISH ************************************
+Rekordbox Playlist Exporter
+A PHP script to export not only playlists in .m3u8 format from the Rekordbox application but also the linked audio files. The entire process is done through a simple and intuitive interface and requires a local server to run.
+
+Features
+Import .m3u8 playlist files into the file folder.
+Select which playlist to export audio files from.
+Define the destination path for the exported files.
+Automatically download associated audio files.
+Prerequisites
+PHP 7.x or higher
+Local server (e.g., XAMPP, MAMP, etc.)
+Rekordbox for playlist management
+Installation
+Clone this repository to your local machine:
+git clone https://gitlab.com/deejay-tools/rekordbox-export.git
+Start the local server and point it to the project directory.
+Ensure that the file folder contains the .m3u8 playlist files from which you want to export audio files.
+Usage
+Start the local server.
+Access the web interface (e.g., http://localhost:8000/rekordbox-export/public).
+Select a playlist from the available ones.
+Define the pattern for the linked audio file path.
+Download the files to the chosen destination folder.
+Main Operations
+Once you export the playlist file in .m3u8 format from Rekordbox, place this file inside the file folder of the project. In the main project screen, you will find a list of your playlists (if there are multiple .m3u8 files). Clicking on one of these entries will open a form where you must enter the path pattern, which is the first folder of the complete path.
+
+Example on macOS:
+If you have an external drive labeled "MUSIC," the path will be something like /Volumes/MUSIC. In this case, the regex pattern is Volumes.
+
+The script will parse all paths within the .m3u8 file and download the playlist’s files accordingly. The destination folder name inside the /music directory of the project will match the playlist file name.
+*****************************************************
+
+
+
+## Struttura del Progetto / Project structure
 ```
 /file                # Cartella per importare i file .m3u8 delle playlist  
 /music            # Cartella dove verranno salvati i file esportati  
